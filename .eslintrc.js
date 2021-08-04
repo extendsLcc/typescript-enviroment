@@ -29,12 +29,4 @@ module.exports = {
     'padded-blocks': ['error', 'always', { allowSingleLineBlocks: true }],
     'class-methods-use-this': 'off',
   },
-  overrides: [
-    {
-      files: ['*.ts'],
-      rules: {
-        'prettier/prettier': 'off',
-      }
-    }
-  ]
 };
